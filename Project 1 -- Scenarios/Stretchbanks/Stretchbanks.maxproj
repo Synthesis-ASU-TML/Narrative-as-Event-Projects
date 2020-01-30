@@ -1,37 +1,26 @@
 {
-	"name" : "StretchBank",
+	"name" : "Stretchbanks",
 	"version" : 1,
-	"creationdate" : 3647936895,
-	"modificationdate" : 3649665036,
-	"viewrect" : [ 18.0, 141.0, 300.0, 500.0 ],
+	"creationdate" : 3663239280,
+	"modificationdate" : 3663239327,
+	"viewrect" : [ 25.0, 70.0, 300.0, 1083.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
+			"range.ms-helper.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"sc.bank.stretch~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"sc.image.intensity~.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"sc.stretch.particles.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"sc.sb.main.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
-			}
-,
-			"sc.sb.videoin.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -51,7 +40,18 @@
 				"local" : 1
 			}
 ,
-			"range.ms-helper.maxpat" : 			{
+			"sc.sb.main.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
+			}
+,
+			"sc.stretch.particles.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sc.sb.videoin.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -59,12 +59,17 @@
 		}
 ,
 		"media" : 		{
-			"sci-fi.mp3" : 			{
+			"amberque.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"amberque.wav" : 			{
+			"bamboo_chimes.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"cello.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
@@ -84,27 +89,22 @@
 				"local" : 1
 			}
 ,
+			"marimba_kids.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"marimba.mp3" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
+			"sci-fi.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"steel_drums.mp3" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"bamboo_chimes.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"cello.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"marimba_kids.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
@@ -139,14 +139,6 @@
 		}
 ,
 		"externals" : 		{
-
-		}
-,
-		"other" : 		{
-			"OSC_DOC.rtf" : 			{
-				"kind" : "file",
-				"local" : 1
-			}
 
 		}
 
