@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 583.0, 80.0, 1495.0, 994.0 ],
+		"rect" : [ 583.0, 80.0, 1531.0, 994.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4991,7 +4991,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 1283.0, 553.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5073,8 +5073,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 159.0, 208.0, 22.0 ],
-									"text" : "~/synthesis-git/media/audio/serra-snd"
+									"patching_rect" : [ 50.0, 159.0, 528.0, 22.0 ],
+									"text" : "\"~/synthesis-git/Narrative-as-Event-Projects/Project 1 -- Scenarios/Class_Media/sounds/alphabet\""
 								}
 
 							}
