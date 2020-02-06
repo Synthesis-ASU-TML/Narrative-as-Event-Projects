@@ -1,0 +1,46 @@
+{
+	"pattrstorage" : 	{
+		"name" : "motion_paint",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"map" : [ "1d_unsigned_rainbow.png" ],
+					"sample_pos" : [ 0.715557604445371 ],
+					"sample_width" : [ 0.014 ],
+					"motion_scale" : [ 1.9 ],
+					"sc.motion.paint::hard_edges" : [ 1.0 ],
+					"sc.motion.paint::drawto" : [ "u607015950" ],
+					"sc.motion.paint::opflow::diff_thresh" : [ 0.0 ],
+					"sc.motion.paint::opflow::opflow_thresh" : [ 0.0 ],
+					"sc.motion.paint::opflow::opflow_lambda" : [ 0.03 ],
+					"sc.motion.paint::opflow::opflow_force" : [ 1.0 ],
+					"sc.motion.paint::opflow::offset" : [ 4.0, 4.0 ],
+					"sc.motion.paint::sc.texture.presence::threshold" : [ 0.09 ],
+					"sc.motion.paint::sc.texture.presence::bypass" : [ 0.0 ],
+					"sc.motion.paint::sc.texture.presence::blur" : [ 3.0, 3.0 ],
+					"sc.motion.paint::sc.texture.presence::memory" : [ 0.9 ],
+					"sc.motion.paint::sc.texture.presence::lpf" : [ 1.0 ],
+					"sc.motion.paint::sc.texture.presence::u835012649" : [ 3.0, 3.0 ],
+					"sc.motion.paint::sc.texture.presence::use_threshold" : [ 1.0 ],
+					"sc.texture.camera.simple::texture_name" : [ 0 ],
+					"sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"sc.texture.camera.simple::unique" : [ 1 ],
+					"sc.texture.camera.simple::hflip" : [ 0.0 ],
+					"sc.texture.invert::bypass" : [ 0.0 ],
+					"sc.texture.presence::threshold" : [ 0.09 ],
+					"sc.texture.presence::bypass" : [ 0.0 ],
+					"sc.texture.presence::blur" : [ 4.0, 3.904999971389771 ],
+					"sc.texture.presence::memory" : [ 0.9 ],
+					"sc.texture.presence::lpf" : [ 1.0 ],
+					"sc.texture.presence::u283017595" : [ 4.0, 3.904999971389771 ],
+					"sc.texture.presence::use_threshold" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
